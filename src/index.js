@@ -24,10 +24,10 @@ ReactDOM.render(
         <Route path="/detalhe" component={DetalheProduto} />
         <Route path="/carrinho" component={Carrinho} />
 
-        //<Route path="/teste" component={Teste} />//
-        <Route path="/infoX/contador" exact={true} component={Contador} />
-        <Route path="/infoX/pedido" component={Pedido} />
-        <Route path="/infoX/conclusao" component={ConclusaoPedido} />
+        <Route path="/teste" component={Teste} />
+        <Route path="/contador" exact={true} component={Contador} />
+        <Route path="/pedido" component={Pedido} />
+        <Route path="/conclusao" component={ConclusaoPedido} />
 
       </Switch>
     </BrowserRouter>

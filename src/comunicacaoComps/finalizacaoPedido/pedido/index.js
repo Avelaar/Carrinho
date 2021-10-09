@@ -23,7 +23,7 @@ export default function Conclusao() {
       <h3> Previsão de Entrega: {pedido.dataEntrega} </h3>
 
       <Link to={{
-        pathname: '/infoX/conclusao',
+        pathname: '/conclusao',
         state: pedido
       }}>
           <button> Confirmar Compra </button>
