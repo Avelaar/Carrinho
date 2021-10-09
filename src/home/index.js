@@ -9,8 +9,6 @@ import Produto from '../produto'
 import { useState } from 'react'
 
 
-
-
 export default function Home() {
   const [produtos, setProdutos] = useState([]);
 
@@ -92,7 +90,6 @@ export default function Home() {
 
     setProdutos(r);
   }
-
 
 
   return (
